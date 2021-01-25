@@ -1,0 +1,19 @@
+{
+    "name": "junior/models-evaluation",
+    "authors": [
+        {
+            "name": "Junior",
+            "email": "duartejusanca@gmail.com"
+        }
+    ],
+    "require": {
+            "vlucas/phpdotenv": "5.2.x-dev",
+            "nesbot/carbon": "3.x-dev",
+        "fzaninotto/faker": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
